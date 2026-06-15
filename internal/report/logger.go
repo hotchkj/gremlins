@@ -4,9 +4,9 @@ package report
 import (
 	"errors"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/hotchkj/gremlins/internal/configuration"
+	"github.com/hotchkj/gremlins/internal/log"
+	"github.com/hotchkj/gremlins/internal/mutator"
 )
 
 // Filter maps mutation statuses to filter which mutants are logged.

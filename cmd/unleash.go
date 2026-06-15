@@ -27,17 +27,17 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/go-gremlins/gremlins/cmd/internal/flags"
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/coverage"
-	"github.com/go-gremlins/gremlins/internal/diff"
-	"github.com/go-gremlins/gremlins/internal/engine"
-	"github.com/go-gremlins/gremlins/internal/engine/workdir"
-	"github.com/go-gremlins/gremlins/internal/exclusion"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
-	"github.com/go-gremlins/gremlins/internal/report"
+	"github.com/hotchkj/gremlins/cmd/internal/flags"
+	"github.com/hotchkj/gremlins/internal/configuration"
+	"github.com/hotchkj/gremlins/internal/coverage"
+	"github.com/hotchkj/gremlins/internal/diff"
+	"github.com/hotchkj/gremlins/internal/engine"
+	"github.com/hotchkj/gremlins/internal/engine/workdir"
+	"github.com/hotchkj/gremlins/internal/exclusion"
+	"github.com/hotchkj/gremlins/internal/gomodule"
+	"github.com/hotchkj/gremlins/internal/log"
+	"github.com/hotchkj/gremlins/internal/mutator"
+	"github.com/hotchkj/gremlins/internal/report"
 )
 
 type unleashCmd struct {

@@ -30,15 +30,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-gremlins/gremlins/internal/coverage"
-	"github.com/go-gremlins/gremlins/internal/diff"
-	"github.com/go-gremlins/gremlins/internal/engine/workerpool"
-	"github.com/go-gremlins/gremlins/internal/exclusion"
-	"github.com/go-gremlins/gremlins/internal/mutator"
-	"github.com/go-gremlins/gremlins/internal/report"
+	"github.com/hotchkj/gremlins/internal/coverage"
+	"github.com/hotchkj/gremlins/internal/diff"
+	"github.com/hotchkj/gremlins/internal/engine/workerpool"
+	"github.com/hotchkj/gremlins/internal/exclusion"
+	"github.com/hotchkj/gremlins/internal/mutator"
+	"github.com/hotchkj/gremlins/internal/report"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
+	"github.com/hotchkj/gremlins/internal/configuration"
+	"github.com/hotchkj/gremlins/internal/gomodule"
 )
 
 // Engine is the "engine" that performs the mutation testing.

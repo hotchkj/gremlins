@@ -19,8 +19,8 @@ package configuration_test
 import (
 	"testing"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/hotchkj/gremlins/internal/configuration"
+	"github.com/hotchkj/gremlins/internal/mutator"
 )
 
 func TestMutantDefaultStatus(t *testing.T) {
